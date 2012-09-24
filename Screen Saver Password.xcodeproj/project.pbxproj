@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11E037C16111F1C000636D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11E037B16111F1C000636D3 /* Cocoa.framework */; };
+		F11E037E16111F1C000636D3 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11E037D16111F1C000636D3 /* AppleScriptObjC.framework */; };
+		F11E038816111F1C000636D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F11E038616111F1C000636D3 /* InfoPlist.strings */; };
+		F11E038A16111F1C000636D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E038916111F1C000636D3 /* main.m */; };
+		F11E038E16111F1C000636D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F11E038C16111F1C000636D3 /* Credits.rtf */; };
+		F11E039016111F1C000636D3 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F11E038F16111F1C000636D3 /* AppDelegate.applescript */; };
+		F11E039316111F1C000636D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11E039116111F1C000636D3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11E037716111F1C000636D3 /* Screen Saver Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Saver Password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11E037B16111F1C000636D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F11E037D16111F1C000636D3 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		F11E038016111F1C000636D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F11E038116111F1C000636D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F11E038216111F1C000636D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F11E038516111F1C000636D3 /* Screen Saver Password-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Screen Saver Password-Info.plist"; sourceTree = "<group>"; };
+		F11E038716111F1C000636D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F11E038916111F1C000636D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F11E038B16111F1C000636D3 /* Screen Saver Password-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screen Saver Password-Prefix.pch"; sourceTree = "<group>"; };
+		F11E038D16111F1C000636D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F11E038F16111F1C000636D3 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F11E039216111F1C000636D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11E037416111F1C000636D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E037C16111F1C000636D3 /* Cocoa.framework in Frameworks */,
+				F11E037E16111F1C000636D3 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11E036C16111F1B000636D3 = {
+			isa = PBXGroup;
+			children = (
+				F11E038316111F1C000636D3 /* Screen Saver Password */,
+				F11E037A16111F1C000636D3 /* Frameworks */,
+				F11E037816111F1C000636D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11E037816111F1C000636D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11E037716111F1C000636D3 /* Screen Saver Password.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11E037A16111F1C000636D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F11E037B16111F1C000636D3 /* Cocoa.framework */,
+				F11E037D16111F1C000636D3 /* AppleScriptObjC.framework */,
+				F11E037F16111F1C000636D3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F11E037F16111F1C000636D3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F11E038016111F1C000636D3 /* AppKit.framework */,
+				F11E038116111F1C000636D3 /* CoreData.framework */,
+				F11E038216111F1C000636D3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F11E038316111F1C000636D3 /* Screen Saver Password */ = {
+			isa = PBXGroup;
+			children = (
+				F11E038F16111F1C000636D3 /* AppDelegate.applescript */,
+				F11E039116111F1C000636D3 /* MainMenu.xib */,
+				F11E038416111F1C000636D3 /* Supporting Files */,
+			);
+			path = "Screen Saver Password";
+			sourceTree = "<group>";
+		};
+		F11E038416111F1C000636D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F11E038516111F1C000636D3 /* Screen Saver Password-Info.plist */,
+				F11E038616111F1C000636D3 /* InfoPlist.strings */,
+				F11E038916111F1C000636D3 /* main.m */,
+				F11E038B16111F1C000636D3 /* Screen Saver Password-Prefix.pch */,
+				F11E038C16111F1C000636D3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11E037616111F1C000636D3 /* Screen Saver Password */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11E039616111F1C000636D3 /* Build configuration list for PBXNativeTarget "Screen Saver Password" */;
+			buildPhases = (
+				F11E037316111F1C000636D3 /* Sources */,
+				F11E037416111F1C000636D3 /* Frameworks */,
+				F11E037516111F1C000636D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Screen Saver Password";
+			productName = "Screen Saver Password";
+			productReference = F11E037716111F1C000636D3 /* Screen Saver Password.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11E036E16111F1C000636D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = taolam;
+			};
+			buildConfigurationList = F11E037116111F1C000636D3 /* Build configuration list for PBXProject "Screen Saver Password" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F11E036C16111F1B000636D3;
+			productRefGroup = F11E037816111F1C000636D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11E037616111F1C000636D3 /* Screen Saver Password */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11E037516111F1C000636D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E038816111F1C000636D3 /* InfoPlist.strings in Resources */,
+				F11E038E16111F1C000636D3 /* Credits.rtf in Resources */,
+				F11E039316111F1C000636D3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11E037316111F1C000636D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E038A16111F1C000636D3 /* main.m in Sources */,
+				F11E039016111F1C000636D3 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F11E038616111F1C000636D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11E038716111F1C000636D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F11E038C16111F1C000636D3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11E038D16111F1C000636D3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F11E039116111F1C000636D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11E039216111F1C000636D3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11E039416111F1C000636D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F11E039516111F1C000636D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F11E039716111F1C000636D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screen Saver Password/Screen Saver Password-Prefix.pch";
+				INFOPLIST_FILE = "Screen Saver Password/Screen Saver Password-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F11E039816111F1C000636D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screen Saver Password/Screen Saver Password-Prefix.pch";
+				INFOPLIST_FILE = "Screen Saver Password/Screen Saver Password-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11E037116111F1C000636D3 /* Build configuration list for PBXProject "Screen Saver Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11E039416111F1C000636D3 /* Debug */,
+				F11E039516111F1C000636D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11E039616111F1C000636D3 /* Build configuration list for PBXNativeTarget "Screen Saver Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11E039716111F1C000636D3 /* Debug */,
+				F11E039816111F1C000636D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11E036E16111F1C000636D3 /* Project object */;
+}
