@@ -12,8 +12,9 @@
 		F11E038816111F1C000636D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F11E038616111F1C000636D3 /* InfoPlist.strings */; };
 		F11E038A16111F1C000636D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E038916111F1C000636D3 /* main.m */; };
 		F11E038E16111F1C000636D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F11E038C16111F1C000636D3 /* Credits.rtf */; };
-		F11E039016111F1C000636D3 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F11E038F16111F1C000636D3 /* AppDelegate.applescript */; };
+		F11E039016111F1C000636D3 /* Screen Saver Password.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F11E038F16111F1C000636D3 /* Screen Saver Password.applescript */; };
 		F11E039316111F1C000636D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11E039116111F1C000636D3 /* MainMenu.xib */; };
+		F120E7421611689200C75D3A /* Screen Saver Password.icns in Resources */ = {isa = PBXBuildFile; fileRef = F120E7411611689200C75D3A /* Screen Saver Password.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		F11E038916111F1C000636D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F11E038B16111F1C000636D3 /* Screen Saver Password-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screen Saver Password-Prefix.pch"; sourceTree = "<group>"; };
 		F11E038D16111F1C000636D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F11E038F16111F1C000636D3 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F11E038F16111F1C000636D3 /* Screen Saver Password.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = "Screen Saver Password.applescript"; sourceTree = "<group>"; };
 		F11E039216111F1C000636D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F120E7411611689200C75D3A /* Screen Saver Password.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Screen Saver Password.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		F11E036C16111F1B000636D3 = {
 			isa = PBXGroup;
 			children = (
+				F120E7411611689200C75D3A /* Screen Saver Password.icns */,
 				F11E038316111F1C000636D3 /* Screen Saver Password */,
 				F11E037A16111F1C000636D3 /* Frameworks */,
 				F11E037816111F1C000636D3 /* Products */,
@@ -85,7 +88,7 @@
 		F11E038316111F1C000636D3 /* Screen Saver Password */ = {
 			isa = PBXGroup;
 			children = (
-				F11E038F16111F1C000636D3 /* AppDelegate.applescript */,
+				F11E038F16111F1C000636D3 /* Screen Saver Password.applescript */,
 				F11E039116111F1C000636D3 /* MainMenu.xib */,
 				F11E038416111F1C000636D3 /* Supporting Files */,
 			);
@@ -158,6 +161,7 @@
 				F11E038816111F1C000636D3 /* InfoPlist.strings in Resources */,
 				F11E038E16111F1C000636D3 /* Credits.rtf in Resources */,
 				F11E039316111F1C000636D3 /* MainMenu.xib in Resources */,
+				F120E7421611689200C75D3A /* Screen Saver Password.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11E038A16111F1C000636D3 /* main.m in Sources */,
-				F11E039016111F1C000636D3 /* AppDelegate.applescript in Sources */,
+				F11E039016111F1C000636D3 /* Screen Saver Password.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				F11E039816111F1C000636D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
